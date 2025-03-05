@@ -40,7 +40,6 @@ for i in range(len(data) // 2):
 	print(data[i * 2 + 1]["Badge Name"], "|", data[i * 2 + 1]["Date"], "|", create_img(data[2 * i + 1]["img"]), file=file)
     
 print(file=file)
-print("------", file=file)
 print("-----", file=file)
 print('<h2><span style="color:blue">B</span><span style="color:red">o</span><span style="color:yellow">n</span><span style="color:blue">u</span><span style="color:green">s</span><span style="color:red">!</span></h2>', file=file)
 print(file=file)

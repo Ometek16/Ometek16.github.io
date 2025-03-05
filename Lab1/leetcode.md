@@ -47,7 +47,6 @@ Algorithm II | 2023-03-03 | <img src="https://assets.leetcode.com/static_assets/
 Programming Skills I | 2023-01-13 | <img src="https://assets.leetcode.com/static_assets/others/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B_%E5%85%A5%E9%97%A8.png" alt="isolated" width="40"/> |Level 1 | 2022-11-15 | <img src="https://assets.leetcode.com/static_assets/others/%E5%85%A5%E9%97%A8.png" alt="isolated" width="40"/>
 Binary Search I | 2022-11-12 | <img src="https://assets.leetcode.com/static_assets/others/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE_%E5%85%A5%E9%97%A8.png" alt="isolated" width="40"/> |  |   |  
 
-------
 -----
 <h2><span style="color:blue">B</span><span style="color:red">o</span><span style="color:yellow">n</span><span style="color:blue">u</span><span style="color:green">s</span><span style="color:red">!</span></h2>
 
