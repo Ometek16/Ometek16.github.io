@@ -1,0 +1,277 @@
+[
+    {
+        "Badge Name": "Guardian",
+        "Date": "2025-02-26",
+        "img": "https://leetcode.com/static/images/badges/guardian.png"
+    },
+    {
+        "Badge Name": "500 Days Badge",
+        "Date": "2024-12-02",
+        "img": "https://assets.leetcode.com/static_assets/marketing/lg500.png"
+    },
+    {
+        "Badge Name": "365 Days Badge",
+        "Date": "2024-12-02",
+        "img": "https://assets.leetcode.com/static_assets/marketing/lg365.png"
+    },
+    {
+        "Badge Name": "50 Days Badge 2025",
+        "Date": "2025-02-20",
+        "img": "https://assets.leetcode.com/static_assets/others/lg2550.png"
+    },
+    {
+        "Badge Name": "Annual Badge 2024",
+        "Date": "2024-10-26",
+        "img": "https://assets.leetcode.com/static_assets/marketing/2024-lg.png"
+    },
+    {
+        "Badge Name": "200 Days Badge 2024",
+        "Date": "2024-07-18",
+        "img": "https://assets.leetcode.com/static_assets/marketing/2024-200-lg.png"
+    },
+    {
+        "Badge Name": "100 Days Badge 2024",
+        "Date": "2024-04-09",
+        "img": "https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png"
+    },
+    {
+        "Badge Name": "50 Days Badge 2024",
+        "Date": "2024-02-19",
+        "img": "https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png"
+    },
+    {
+        "Badge Name": "Annual Badge 2023",
+        "Date": "2023-12-15",
+        "img": "https://assets.leetcode.com/static_assets/marketing/lg2023.png"
+    },
+    {
+        "Badge Name": "50 Days Badge 2023",
+        "Date": "2023-12-15",
+        "img": "https://assets.leetcode.com/static_assets/marketing/lg50.png"
+    },
+    {
+        "Badge Name": "100 Days Badge 2023",
+        "Date": "2023-12-15",
+        "img": "https://assets.leetcode.com/static_assets/marketing/lg100.png"
+    },
+    {
+        "Badge Name": "50 Days Badge 2022",
+        "Date": "2023-01-01",
+        "img": "https://leetcode.com/static/images/badges/2022/lg/2022-annual-50.png"
+    },
+    {
+        "Badge Name": "Jan Badge",
+        "Date": "2025-01-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2025-1.png"
+    },
+    {
+        "Badge Name": "Dec Badge",
+        "Date": "2024-12-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-12.png"
+    },
+    {
+        "Badge Name": "Nov Badge",
+        "Date": "2024-11-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-11.png"
+    },
+    {
+        "Badge Name": "Oct Badge",
+        "Date": "2024-10-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-10.png"
+    },
+    {
+        "Badge Name": "Sep Badge",
+        "Date": "2024-09-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-9.png"
+    },
+    {
+        "Badge Name": "Aug Badge",
+        "Date": "2024-08-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-8.png"
+    },
+    {
+        "Badge Name": "Jul Badge",
+        "Date": "2024-07-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-7.png"
+    },
+    {
+        "Badge Name": "Jun Badge",
+        "Date": "2024-06-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-6.png"
+    },
+    {
+        "Badge Name": "May Badge",
+        "Date": "2024-05-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-5.png"
+    },
+    {
+        "Badge Name": "Apr Badge",
+        "Date": "2024-04-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-4.png"
+    },
+    {
+        "Badge Name": "Mar Badge",
+        "Date": "2024-03-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-3.png"
+    },
+    {
+        "Badge Name": "Feb Badge",
+        "Date": "2024-02-29",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-2.png"
+    },
+    {
+        "Badge Name": "Jan Badge",
+        "Date": "2024-01-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2024-1.png"
+    },
+    {
+        "Badge Name": "Dec Badge",
+        "Date": "2023-12-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-12.png"
+    },
+    {
+        "Badge Name": "Nov Badge",
+        "Date": "2023-11-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-11.png"
+    },
+    {
+        "Badge Name": "Oct Badge",
+        "Date": "2023-10-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-10.png"
+    },
+    {
+        "Badge Name": "Sep Badge",
+        "Date": "2023-09-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-9.png"
+    },
+    {
+        "Badge Name": "Aug Badge",
+        "Date": "2023-08-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-8.png"
+    },
+    {
+        "Badge Name": "Jul Badge",
+        "Date": "2023-07-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-7.png"
+    },
+    {
+        "Badge Name": "Jun Badge",
+        "Date": "2023-06-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-6.png"
+    },
+    {
+        "Badge Name": "May Badge",
+        "Date": "2023-05-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-5.png"
+    },
+    {
+        "Badge Name": "Apr Badge",
+        "Date": "2023-05-01",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-4.png"
+    },
+    {
+        "Badge Name": "Mar Badge",
+        "Date": "2023-03-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-3.png"
+    },
+    {
+        "Badge Name": "Feb Badge",
+        "Date": "2023-02-28",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-2.png"
+    },
+    {
+        "Badge Name": "Jan Badge",
+        "Date": "2023-01-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2023-1.png"
+    },
+    {
+        "Badge Name": "Dec Badge",
+        "Date": "2022-12-31",
+        "img": "https://leetcode.com/static/images/badges/dcc-2022-12.png"
+    },
+    {
+        "Badge Name": "Nov Badge",
+        "Date": "2022-11-30",
+        "img": "https://leetcode.com/static/images/badges/dcc-2022-11.png"
+    },
+    {
+        "Badge Name": "Top SQL 50",
+        "Date": "2024-12-13",
+        "img": "https://assets.leetcode.com/static_assets/others/Top_SQL_50.png"
+    },
+    {
+        "Badge Name": "Introduction to Pandas",
+        "Date": "2024-02-15",
+        "img": "https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas_Badge.png"
+    },
+    {
+        "Badge Name": "Top Interview 150",
+        "Date": "2024-02-15",
+        "img": "https://assets.leetcode.com/static_assets/others/Top_100_Liked-1.png"
+    },
+    {
+        "Badge Name": "Top 100 Liked",
+        "Date": "2024-02-14",
+        "img": "https://assets.leetcode.com/static_assets/others/Top_100_Liked.png"
+    },
+    {
+        "Badge Name": "Programming Skills",
+        "Date": "2024-02-14",
+        "img": "https://assets.leetcode.com/static_assets/others/Programming_Skills.png"
+    },
+    {
+        "Badge Name": "Graph Theory",
+        "Date": "2024-02-14",
+        "img": "https://assets.leetcode.com/static_assets/others/Graph_Theory.png"
+    },
+    {
+        "Badge Name": "Dynamic Programming Grandmaster",
+        "Date": "2024-02-12",
+        "img": "https://assets.leetcode.com/static_assets/others/Dynamic_Programming_Grandmaster.png"
+    },
+    {
+        "Badge Name": "Dynamic Programming",
+        "Date": "2024-01-20",
+        "img": "https://assets.leetcode.com/static_assets/others/Dynamic_Programming.png"
+    },
+    {
+        "Badge Name": "Binary Search",
+        "Date": "2024-01-20",
+        "img": "https://assets.leetcode.com/static_assets/others/Binary_Search.png"
+    },
+    {
+        "Badge Name": "Premium Algo 100",
+        "Date": "2024-01-09",
+        "img": "https://assets.leetcode.com/static_assets/others/Premium_Algo_100.png"
+    },
+    {
+        "Badge Name": "LeetCode 75",
+        "Date": "2023-08-22",
+        "img": "https://assets.leetcode.com/static_assets/others/LeetCode_75.png"
+    },
+    {
+        "Badge Name": "Algorithm II",
+        "Date": "2023-03-03",
+        "img": "https://assets.leetcode.com/static_assets/others/algorithm_II.png"
+    },
+    {
+        "Badge Name": "Algorithm I",
+        "Date": "2023-02-10",
+        "img": "https://assets.leetcode.com/static_assets/others/algorithm_I.png"
+    },
+    {
+        "Badge Name": "Programming Skills I",
+        "Date": "2023-01-13",
+        "img": "https://assets.leetcode.com/static_assets/others/%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B_%E5%85%A5%E9%97%A8.png"
+    },
+    {
+        "Badge Name": "Level 1",
+        "Date": "2022-11-15",
+        "img": "https://assets.leetcode.com/static_assets/others/%E5%85%A5%E9%97%A8.png"
+    },
+    {
+        "Badge Name": "Binary Search I",
+        "Date": "2022-11-12",
+        "img": "https://assets.leetcode.com/static_assets/others/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE_%E5%85%A5%E9%97%A8.png"
+    }
+]
