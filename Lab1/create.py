@@ -30,13 +30,13 @@ for title, link in patterns:
 print("## My Profile", file=file)
 print("I started working on my **Leetcode** profile as I begun studying. At first I just wanted to recieve a free T-shirt. But as I progressed I realized that it was a great way to track my progress and learn new things. You can find my profile [here](https://leetcode.com/u/Ometek/).", file=file)
 print("### Badges", file=file)
-print("| Name | Date | img | Name | Date | img |", file=file)
-print("| --- | --- | --- | --- | --- | --- |", file=file)
+print("Name | Date | img | Name | Date | img", file=file)
+print("--- | --- | --- | --- | --- | ---", file=file)
 
 data.append(dict({"Badge Name": "", "Date": "", "img": ""}))
 
 for i in range(len(data) // 2):
-	print("|", data[i * 2]["Badge Name"], "|", data[i * 2]["Date"], "|", create_img(data[2 * i]["img"]), "|", file=file, end="")
-	print(data[i * 2 + 1]["Badge Name"], "|", data[i * 2 + 1]["Date"], "|", create_img(data[2 * i + 1]["img"]), "|", file=file)
+	print(data[i * 2]["Badge Name"], "|", data[i * 2]["Date"], "|", create_img(data[2 * i]["img"]), "|", file=file, end="")
+	print(data[i * 2 + 1]["Badge Name"], "|", data[i * 2 + 1]["Date"], "|", create_img(data[2 * i + 1]["img"]), file=file)
     
 file.close()
