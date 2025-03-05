@@ -1,7 +1,7 @@
 import json
 
 def create_img(img):
-    if (img == ""): return ""
+    if (img == " "): return " "
     return f"<img src=\"{img}\" alt=\"isolated\" width=\"40\"/>"
 
 
@@ -33,12 +33,13 @@ print("### Badges", file=file)
 print("Name | Date | img | Name | Date | img", file=file)
 print("--- | --- | --- | --- | --- | ---", file=file)
 
-data.append(dict({"Badge Name": "", "Date": "", "img": ""}))
+data.append(dict({"Badge Name": " ", "Date": " ", "img": " "}))
 
 for i in range(len(data) // 2):
 	print(data[i * 2]["Badge Name"], "|", data[i * 2]["Date"], "|", create_img(data[2 * i]["img"]), "|", file=file, end="")
 	print(data[i * 2 + 1]["Badge Name"], "|", data[i * 2 + 1]["Date"], "|", create_img(data[2 * i + 1]["img"]), file=file)
     
+print(file=file)
 print("------", file=file)
 print("-----", file=file)
 print('<h2><span style="color:blue">B</span><span style="color:red">o</span><span style="color:yellow">n</span><span style="color:blue">u</span><span style="color:green">s</span><span style="color:red">!</span></h2>', file=file)
