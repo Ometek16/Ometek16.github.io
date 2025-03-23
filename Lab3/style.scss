@@ -1,0 +1,115 @@
+$font-stack: Helvetica, sans-serif;
+$background-color: #84acce;
+$primary-color: #827191;
+$secondary-color: #d7d9b1;
+$fancy-color: #7d1d3f;
+$text-color: #512500;
+
+body {
+  background-color: $background-color;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+h1 {
+	text-align: center;
+	background-color: $secondary-color;
+}
+
+header {
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 1em;
+  text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1em; 
+}
+
+.operand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	min-width: 15em;
+	flex-shrink: 0;
+    max-width: 20em;
+    aspect-ratio: 1 / 1; /* Keeps items square */
+    border: 1px solid $fancy-color;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: $secondary-color;
+}
+
+@media (min-width: 800px) {
+	.operand:hover {
+		background-color: $fancy-color;
+		color: $secondary-color;
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	width: 330px;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	background-color: #ddd;
+	border: 1px solid #999;
+}
+
+.flex-container-2 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+.box {
+	width: 20px;
+	height: 20px;
+	background-color: steelblue;
+	margin: 2px;
+}
+
+.cool-form {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	margin: 0 auto;
+}
+
+/* Different justify-content values for each cell */
+.cell:nth-child(1) .flex-container-2 { justify-content: flex-start; }
+.cell:nth-child(2) .flex-container-2 { justify-content: center; }
+.cell:nth-child(3) .flex-container-2 { justify-content: flex-end; }
+.cell:nth-child(4) .flex-container-2 { justify-content: space-between; }
+.cell:nth-child(5) .flex-container-2 { justify-content: space-around; }
+.cell:nth-child(6) .flex-container-2 { justify-content: space-evenly; }
+
+footer {
+	background-color: $secondary-color;
+	color: $primary-color;
+	padding: 1em;
+	text-align: center;
+}
