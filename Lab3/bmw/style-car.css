@@ -10,7 +10,7 @@ body {
 
 .car {
   position: relative;
-  top: 30%;
+  top: 25%;
   width: 20rem;
   aspect-ratio: 4/3;
   perspective: 1000px;
@@ -20,7 +20,7 @@ body {
   overflow: hidden;
   background-color: transparent;
   animation: move-left-right 5s ease-in-out infinite;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 1s ease-in-out;
   transform-origin: center;
 }
 
@@ -278,8 +278,7 @@ body {
   top: 38%;
   box-sizing: border-box;
   border-radius: 20%;
-  -webkit-clip-path: polygon(0% 100%, 5% 44%, 9% 40%, 46% 25%, 50% 21%, 57% 15%, 65% 10%, 100% 0%, 100% 100%);
-          clip-path: polygon(0% 100%, 5% 44%, 9% 40%, 46% 25%, 50% 21%, 57% 15%, 65% 10%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 100%, 5% 44%, 9% 40%, 46% 25%, 50% 21%, 57% 15%, 65% 10%, 100% 0%, 100% 100%);
 }
 
 .bumper.left {
@@ -294,6 +293,11 @@ body {
 .carbon-fiber {
   background-color: olivedrab;
   background: repeating-linear-gradient(45deg, black 5%, #A9BE70 5%, black 5%, #A9BE70 0.3333333333rem);
+}
+
+.grill-fiber {
+  background-color: black;
+  background: repeating-linear-gradient(90deg, rgb(32, 30, 30) 5%, black 5%, rgb(32, 30, 30) 5%, black 0.6666666667rem);
 }
 
 .innertoplip {
@@ -552,4 +556,6 @@ body {
 .mirror.right {
   right: -14%;
   transform: rotateZ(180deg) rotateX(180deg);
-}/*# sourceMappingURL=style-car.css.map */
+}
+
+/*# sourceMappingURL=style-car.css.map */

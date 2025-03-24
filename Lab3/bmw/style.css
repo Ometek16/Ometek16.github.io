@@ -4,7 +4,6 @@
   width: 20%;
   height: 10%;
   bottom: 0%;
-  background-color: red;
   border: 2px solid black;
   align-items: center;
   justify-content: center;
@@ -14,7 +13,6 @@
 
 .follow-me:hover ~ .car {
   transform: scale(3) translateY(50px);
-
 }
 
 body:has(.follow-me:hover) .lightbulb {
@@ -24,4 +22,6 @@ body:has(.follow-me:hover) .lightbulb {
 p {
   font-size: 1.5em;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

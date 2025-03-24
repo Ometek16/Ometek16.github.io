@@ -18,7 +18,7 @@ body {
 
 .car {
   position: relative;
-  top: 30%;
+  top: 25%;
   width: $car-width;
   aspect-ratio: 4/3;
   perspective: 1000px;
@@ -28,7 +28,7 @@ body {
   overflow: hidden;
   background-color: transparent;
   animation: move-left-right $animation-duration ease-in-out infinite;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 1s ease-in-out;
   transform-origin: center;
 }
 
@@ -308,6 +308,11 @@ body {
 .carbon-fiber {
   background-color: olivedrab;
   background: repeating-linear-gradient(45deg, black 5%, $car-color 5%, black 5%, $car-color $carbon-fiber-width);
+}
+
+.grill-fiber {
+  background-color: black;
+  background: repeating-linear-gradient(90deg, $radiator-color 5%, black 5%, $radiator-color 5%, black calc(2 *$carbon-fiber-width));
 }
 
 .innertoplip {

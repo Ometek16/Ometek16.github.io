@@ -3,7 +3,6 @@
   width: 100%;
   height: 60%;
   top: 40%;
-  background: linear-gradient(rgb(139, 230, 54), rgb(129, 119, 6));
   overflow: hidden;
   perspective: 500px;
 }
@@ -16,8 +15,8 @@
   margin: auto;
   align-self: center;
   transform: perspective(100vh) rotateX(50deg) scaleY(5000%);
-  border-left: 4em solid rgb(22, 27, 18);
-  border-right: 4em solid rgb(22, 27, 18);
+  border-left-width: 4em;
+  border-right-width: 4em;
   box-shadow: inset 0 0 0 4em white; 
 }
   
