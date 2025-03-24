@@ -1,0 +1,555 @@
+/* @import "tailwindcss"; */
+body {
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Ensures full viewport height */
+  margin: 0;
+  background-color: #e8cebf;
+  overflow: hidden;
+}
+
+.car {
+  position: relative;
+  top: 30%;
+  width: 20rem;
+  aspect-ratio: 4/3;
+  perspective: 1000px;
+  margin: auto;
+  align-self: center;
+  display: block;
+  overflow: hidden;
+  background-color: transparent;
+  animation: move-left-right 5s ease-in-out infinite;
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes move-left-right {
+  0% {
+    left: -12%;
+  }
+  50% {
+    left: 12%;
+  }
+  100% {
+    left: -12%;
+  }
+}
+.wheel {
+  position: absolute;
+  width: 17%;
+  height: 35%;
+  background-color: rgb(6, 4, 27);
+  border-radius: 15%;
+  box-sizing: border-box;
+  top: 56%;
+}
+
+.wheel.left {
+  left: 5%;
+}
+
+.wheel.right {
+  right: 5%;
+}
+
+.frontbumper {
+  position: absolute;
+  width: 90%;
+  height: 35%;
+  /* background-color: $car-color; */
+  left: 5%;
+  top: 52%;
+}
+
+.grill {
+  opacity: 1;
+  position: absolute;
+  width: 15.5%;
+  height: 80%;
+  background-color: black;
+  box-sizing: border-box;
+  top: 10%;
+}
+
+.grill.left {
+  border-radius: 15% 20% 20% 30%;
+  border-bottom-left-radius: 20% 70%;
+  border-top-left-radius: 20% 20%;
+  left: 34.3%;
+}
+
+.grill.right {
+  border-radius: 20% 15% 30% 20%;
+  border-bottom-right-radius: 20% 70%;
+  border-top-right-radius: 20% 20%;
+  right: 34.3%;
+}
+
+.headlight {
+  position: absolute;
+  width: 22%;
+  height: 74%;
+  background-color: darkslategrey;
+  top: 10%;
+  border-radius: 3% 10% 10% 3%;
+  border-width: 0.1666666667rem;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.headlight.left {
+  left: 9.5%;
+  transform: rotateY(0deg);
+}
+
+.headlight.right {
+  right: 9.5%;
+  transform: rotateY(180deg);
+}
+
+.lightbulb {
+  position: absolute;
+  aspect-ratio: 1/1;
+  background-color: white;
+  border-radius: 50%;
+  border-width: 0.1666666667rem;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+  animation: all 1s infinite alternate;
+}
+
+@keyframes flash-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 100, 0), 0 0 20px rgba(255, 255, 100, 0), 0 0 30px rgba(255, 255, 100, 0);
+  }
+  50% {
+    box-shadow: 0 0 50px rgb(255, 255, 150), 0 0 60px rgb(255, 255, 150), 0 0 70px rgb(255, 255, 200);
+  }
+}
+.lightbulb.outer {
+  height: 117%;
+  left: 3%;
+  top: -10%;
+}
+
+.lightbulb.inner {
+  height: 120%;
+  right: 7%;
+  top: -12%;
+}
+
+.blinker {
+  position: absolute;
+  width: 8%;
+  height: 74%;
+  background-color: orange;
+  top: 10%;
+  border-width: 0.1666666667rem;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.blinker.left {
+  left: 2%;
+  border-top-left-radius: 50% 90%;
+  border-bottom-left-radius: 20%;
+}
+
+.blinker.right {
+  right: 2%;
+  border-top-right-radius: 50% 90%;
+  border-bottom-right-radius: 20%;
+}
+
+.toplip {
+  position: absolute;
+  width: 100%;
+  height: 42%;
+  /* background-color: green; */
+  top: 0%;
+}
+
+.hood {
+  position: absolute;
+  width: 74%;
+  height: 21%;
+  background-color: #A9BE70;
+  top: 33%;
+  left: 13%;
+  border-radius: 40% 40% 3% 3%;
+  border: 0.2rem solid black;
+  border-bottom: 0;
+  box-sizing: border-box;
+}
+
+.hoodline {
+  position: absolute;
+  width: 30.1%;
+  height: 100%;
+  top: 36%;
+  background-color: transparent;
+  border-top: 0.1666666667rem solid black;
+  border-radius: 10rem/2rem;
+  box-sizing: border-box;
+}
+
+.hoodline.left {
+  left: 4%;
+  rotate: 70deg;
+}
+
+.hoodline.right {
+  right: 4%;
+  rotate: -70deg;
+}
+
+.hoodline.center {
+  left: 27%;
+  top: 90%;
+  width: 46%;
+  border-top: 0.1666666667rem solid black;
+  border-radius: 10rem/1.3333333333rem;
+}
+
+.hoodline.bottomleft {
+  left: -9.3%;
+  top: 58%;
+  width: 42%;
+  rotate: 180deg;
+  border-radius: 1.7333425778rem/4rem;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 40%;
+}
+
+.hoodline.bottomright {
+  right: -9.3%;
+  top: 58%;
+  width: 42%;
+  rotate: 180deg;
+  border-radius: 1.7333425778rem/4rem;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 40%;
+  transform: rotateY(180deg);
+}
+
+.windshield {
+  position: absolute;
+  width: 74%;
+  height: 75%;
+  background-color: lightblue;
+  top: -11%;
+  left: 13%;
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-top-left-radius: 20% 200%;
+  border-top-right-radius: 20% 200%;
+  border-bottom-left-radius: 55%;
+  border-bottom-right-radius: 55%;
+  transform: perspective(25.1968503937rem) rotateX(60deg) scaleX(87%);
+}
+
+.body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: shake-left-right 5s ease-in-out infinite;
+}
+
+@keyframes shake-left-right {
+  0% {
+    transform: rotate(-1.6deg) perspective(1mm) scaleX(102%);
+  }
+  50% {
+    transform: rotate(1.6deg) perspective(1mm) scaleX(98%);
+  }
+  100% {
+    transform: rotate(-1.6deg) perspective(1mm) scaleX(102%);
+  }
+}
+.bumper {
+  position: absolute;
+  width: 10%;
+  height: 26.5%;
+  background-color: black;
+  top: 38%;
+  box-sizing: border-box;
+  border-radius: 20%;
+  -webkit-clip-path: polygon(0% 100%, 5% 44%, 9% 40%, 46% 25%, 50% 21%, 57% 15%, 65% 10%, 100% 0%, 100% 100%);
+          clip-path: polygon(0% 100%, 5% 44%, 9% 40%, 46% 25%, 50% 21%, 57% 15%, 65% 10%, 100% 0%, 100% 100%);
+}
+
+.bumper.left {
+  left: 5.5%;
+}
+
+.bumper.right {
+  right: 5.5%;
+  transform: rotateY(180deg);
+}
+
+.carbon-fiber {
+  background-color: olivedrab;
+  background: repeating-linear-gradient(45deg, black 5%, #A9BE70 5%, black 5%, #A9BE70 0.3333333333rem);
+}
+
+.innertoplip {
+  position: relative;
+  width: 95.6%;
+  height: 100%;
+  top: 5%;
+  margin: auto;
+  align-self: center;
+  background-color: #A9BE70;
+  border-radius: 50% 50% 10% 10%;
+  border: 0px solid transparent;
+  border-bottom: 0.1666666667rem solid black;
+  box-sizing: border-box;
+}
+
+.hood-placer {
+  position: absolute;
+  width: 74%;
+  height: 20%;
+  top: 33.5%;
+  left: 13%;
+}
+
+.bottombumper {
+  position: relative;
+  width: 94%;
+  height: 45%;
+  margin: auto;
+  align-self: center;
+  background-color: #A9BE70;
+  top: 50%;
+  border-bottom-left-radius: 4% 19%;
+  border-bottom-right-radius: 4% 19%;
+  border-top-left-radius: 4% 19%;
+  border-top-right-radius: 4% 19%;
+  box-sizing: border-box;
+}
+
+.bottomlip1 {
+  position: relative;
+  margin: auto;
+  align-self: center;
+  width: 99.7%;
+  height: 40%;
+  bottom: -60%;
+  background-color: transparent;
+  border-top: 0.1666666667rem solid black;
+  border-radius: 8%/100%;
+  transform: rotate(180deg);
+}
+
+.bottomlip2 {
+  position: relative;
+  margin: auto;
+  align-self: center;
+  width: 100%;
+  height: 40%;
+  bottom: -2%;
+  background-color: transparent;
+  border-top: 0.1666666667rem solid black;
+  border-radius: 2%/30%;
+  transform: rotate(180deg);
+}
+
+.innerbumper {
+  position: absolute;
+  width: 97.5%;
+  height: 20%;
+  top: 32.7%;
+  left: 1.25%;
+  background-color: #A9BE70;
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2% 40%;
+  border-bottom-right-radius: 2% 40%;
+  border-top-left-radius: 2% 20%;
+  border-top-right-radius: 2% 20%;
+}
+
+.radiator-grill {
+  position: absolute;
+  width: 40%;
+  height: 89%;
+  top: 0%;
+  left: 30%;
+  background-color: #A9BE70;
+  border-left: 0.2166666667rem solid black;
+  border-right: 0.2166666667rem solid black;
+  box-sizing: border-box;
+}
+
+.radiator1 {
+  position: absolute;
+  width: 97%;
+  left: 1.5%;
+  height: 75%;
+  top: 30%;
+  background-color: rgb(32, 30, 30);
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-top-left-radius: 10% 40%;
+  border-top-right-radius: 10% 40%;
+  border-bottom-left-radius: 5% 20%;
+  border-bottom-right-radius: 5% 20%;
+  border-left: 0.1666666667rem solid black;
+  border-right: 0.1666666667rem solid black;
+}
+
+.radiator2 {
+  position: absolute;
+  width: 97%;
+  left: 1.5%;
+  height: 60%;
+  top: 30%;
+  background-color: rgb(77, 73, 73);
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-top-left-radius: 10% 40%;
+  border-top-right-radius: 10% 40%;
+  border-bottom-left-radius: 5% 60%;
+  border-bottom-right-radius: 5% 60%;
+}
+
+.midsthidkwhat {
+  position: relative;
+  width: 20%;
+  height: 15%;
+  top: 100%;
+  margin: auto;
+  align-self: center;
+  background-color: #A9BE70;
+  border-radius: 0 0 60% 60%;
+  border: 0.2166666667rem solid black;
+  border-top-color: transparent;
+  box-sizing: border-box;
+}
+
+.bumpercosmetic {
+  position: absolute;
+  width: 30.6%;
+  height: 89%;
+  top: 0%;
+  margin: auto;
+  align-self: center;
+  background-color: #A9BE70;
+  box-sizing: border-box;
+  border-left: 0.1666666667rem solid black;
+  border-bottom-left-radius: 6%;
+  border-top-left-radius: 10%;
+}
+
+.bumpercosmetic.left {
+  left: 0%;
+}
+
+.bumpercosmetic.right {
+  right: 0%;
+  transform: rotateZ(180deg) rotateX(180deg);
+}
+
+.foglight {
+  position: absolute;
+  width: 45%;
+  height: 50%;
+  bottom: 5%;
+  background-color: rgb(215, 215, 178);
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  left: 12%;
+  border-radius: 20%;
+  border-top-left-radius: 30% 70%;
+  border-bottom-left-radius: 60% 160%;
+}
+
+.airhole {
+  position: absolute;
+  width: 33%;
+  height: 50%;
+  bottom: 5%;
+  left: 57%;
+  background-color: rgb(32, 30, 30);
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top-left-radius: 30% 70%;
+  border-bottom-left-radius: 60% 160%;
+}
+
+.bottombumperline {
+  position: absolute;
+  margin: auto;
+  align-self: center;
+  width: 102%;
+  height: 30%;
+  top: 88.9%;
+  background-color: transparent;
+  border-radius: 50%/130%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top: 0.1333333333rem solid black;
+}
+
+.topbumperline {
+  position: absolute;
+  margin: auto;
+  align-self: center;
+  width: 94%;
+  height: 30%;
+  top: 42%;
+  left: -1%;
+  background-color: transparent;
+  border-top: 0.1333333333rem solid black;
+  border-radius: 10%/10%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transform: rotateZ(1.4deg);
+}
+
+.skibidibumperline {
+  position: absolute;
+  margin: auto;
+  align-self: center;
+  width: 8%;
+  height: 30%;
+  top: 42%;
+  left: 84%;
+  background-color: transparent;
+  border-top: 0.1333333333rem solid black;
+  border-radius: 75%/27%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  transform: rotateZ(45deg);
+}
+
+.mirror {
+  position: absolute;
+  margin: auto;
+  align-self: center;
+  width: 14%;
+  height: 18%;
+  top: 60%;
+  background-color: rgb(215, 215, 178);
+  border: 0.1666666667rem solid black;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top-left-radius: 80% 100%;
+  border-bottom-left-radius: 100% 170%;
+  border-top-right-radius: 100% 100%;
+}
+
+.mirror.left {
+  left: -14%;
+}
+
+.mirror.right {
+  right: -14%;
+  transform: rotateZ(180deg) rotateX(180deg);
+}/*# sourceMappingURL=style-car.css.map */
